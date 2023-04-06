@@ -6,6 +6,7 @@ import math
 chat_id = 708133213 # Ваш chat ID, не меняйте название переменной
 
 def solution(x: np.array) -> float:
+    x = x/10
     alpha = -45
     r = math.exp(1)
     a = np.array([])
